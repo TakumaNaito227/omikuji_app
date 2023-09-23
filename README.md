@@ -1,20 +1,22 @@
-# omikuji
+# アプリケーション名
+おみくじアプリ
 
-A new Flutter project.
 
-## Getting Started
+# 概要
+flutterの画面遷移学習用アプリ
+「今日の運勢を占い」をクリックすると、占い結果が表示
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+# 接続先情報
+URL https://omikiji-app.web.app/#/  
+Apple store、Google Playで公開していないので、上記URLのSPモードで動作確認
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# omikuji_app
 
-first mobile app
-https://omikiji-app.web.app/#/
+  
+
+# 開発環境
+- flutter
+- firebase hosting
+
+
