@@ -48,15 +48,18 @@ class _ResultPageState extends State<ResultPage> {
       appBar: AppBar(
         title: const Text('結果'),
       ),
-      body: Container(
-        color: _backgroundColor,
-        child: Center(
-          child: RotatedBox(
-            quarterTurns: 4,
-            child: Text(
-              widget.result,
-              style: _textStyle,
-              textDirection: TextDirection.rtl,
+      body: Center(
+        child: Container(
+          color: _backgroundColor,
+          width: 390,
+          child: Center(
+            child: RotatedBox(
+              quarterTurns: 4,
+              child: Text(
+                widget.result,
+                style: _textStyle,
+                textDirection: TextDirection.rtl,
+              ),
             ),
           ),
         ),
